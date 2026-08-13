@@ -16,40 +16,63 @@
 
 
     
-    <main>
-    <form> 
-    <label for="Name">Name</label>
-    <input id="Name" required>
-    
-    </form>
+   
+
+<!-- Personal Details Fieldset -->
+<fieldset>
+<legend><strong>Your Personal Information</strong></legend>
+<br>
+                   
+<label for="fullname">Full Name:</label><br>
+<input type="text" id="fullname" name="fullname" placeholder="e.g. Kubobonke Diko" required><br><br>
+<label for="email">Email Address:</label><br>
+<input type="email" id="email" name="email" placeholder="e.g. kubobonkediko@example.com" required><br><br>
+
+<label for="phone">Phone / WhatsApp Number:</label><br>
+<input type="tel" id="phone" name="phone" placeholder="e.g. 072 763 3457"><br><br>
+
+<label for="location">Suburban Area in Mount Frere:</label><br>
+<input type="text" id="location" name="location" placeholder="e.g. Siyakhana legal advice centre, Mount Frere"><br><br>
+</fieldset>
+
+<br>
+
+<!-- Enquiry Category Fieldset -->
+<fieldset>
+<legend><strong>Enquiry & Consultation booking</strong></legend>
+<br>
+
+<label for="category">Enquiry Category:</label><br>
+<select id="category" name="category" required>
+<option value="" disabled selected>-- Select an Enquiry Type --</option>
+<option value="booking">One on One consultation services</option>
+<option value="Service Quotation ">Services Quotation fee</option>
+<option value="general">General Enquiry</option>
+</select><br><br>
+
+<label>Preferred Availability for :</label><br>
+<input type="checkbox" id="avail_Wednesday" name="availability[]" value="Wednesday">
+<label for="avail_Wednesday">Wednesday </label><br>
+                   
+<input type="checkbox" id="avail_weekdays" name="availability[]" value="Weekdays">
+<label for="avail_weekdays">Weekdays</label><br><br>
+
+<label for="message"> Specific Request:</label><br>
+<textarea id="message" name="message" rows="6" cols="50" placeholder="Please tell us more about your enquiry or how you'd like to get involved..." required></textarea><br><br>
+</fieldset>
+
+<br>
+
+               
+</form>
+</section>
 </main>
 
-<main>
-    <form>
-    <label for="Surname">Surname</label>
-    <input id="Surname"Surname="Surname" required>
-    
-    </form>
-</main>
 
-<main>
-    <form>
-    <label for="Email">Email</label>
-    <input id="Email"Email="Email" required>
-    <button type="submit">"Send"</button>
-    </form>
-
-    <main>
-    <form>
-    <label for="Phone no">Phone no</label>
-    <input id="Phone no"Phone="Phone" required>
-    
-    </form>
-</main>
     
 
-    <footer>
-    <p>&copy; 2026 Siyakhana legal advice centre. All Roghts Reserved</p>
+<footer>
+    <p>&copy; 2024 Siyakhana legal advice centre. All Roghts Reserved</p>
 </footer>
 </body>
 </html>
