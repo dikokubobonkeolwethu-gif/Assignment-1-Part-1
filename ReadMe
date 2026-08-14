@@ -10,6 +10,32 @@ An HTML5-only, five-page website created from the Siyakhana Legal Advice Centre 
 - `inquiry.html` — Inquiry, quotation and booking request form
 - `contact.html` — Contact information, hours and contact form
 
+
+## Organisation Overview
+
+Siyakhana Legal Advice Centre was founded in **2024 in Mount Frere (KwaBhaca)**. The organisation works at community level to address challenges such as limited access to justice, social grant difficulties, and human rights violations. The organisation focuses on offering free legal advice, protecting human rights, and helping rural communities access social services.
+
+## Services
+
+The website highlights the following services and programmes:
+- Providing free paralegal and legal advice services.
+- Assisting residents with SASSA social grant applications and appeals.
+- Resolving local land, family, and labour disputes.
+- Educating rural communities on human rights and constitutional protections.
+- Supporting women and vulnerable groups affected by gender-based violence.
+- Promoting social justice and community empowerment across the Alfred Nzo District.
+
+## Contact Information
+
+**Telephone:** 041 818 5643
+**WhatsApp:**  0789184768 
+**Facebook:** Siyakhana Legal Advice Centre  
+**Physical Address:**  ERF 173 Main Street, KwaBhaca, 5090</p>
+**Opening Hours:**  - Monday-Friday: 08:00-16:30
+                    -Saturdays: 09:00-13:00
+                    -Sundays: Closed
+
+## Folder Structure
 ## Folder structure
 
 ```text
@@ -29,49 +55,71 @@ An HTML5-only, five-page website created from the Siyakhana Legal Advice Centre 
     └── legal-advice-concept-color-illustration-vector.jpg
 ```
 
-## How to run
+*The image filenames above can be changed to match the actual filenames used in the project.*
 
-1. Extract the ZIP file.
-2. Open the `Siyakhana Legal Advice Centre` folder.
-3. Double-click `index.html`, or open it using a web browser.
-4. Use the navigation menu to visit all five pages.
+## How to Run
 
-No installation, server, CSS or JavaScript is required.
+1. Download or extract the website folder.
+2. Open the project folder.
+3. Double-click `index.html`.
+4. The website will open in a web browser.
+5. Use the navigation links to move between the Home, About, Services, Enquiry and Contact pages.
 
-## Important setup before publishing
+*No server or installation is required to view the basic website locally.*
 
-The proposal did not include confirmed business contact details. Search all HTML files and replace:
+## Enquiry Form
 
-- `+27 00 000 0000` with the correct telephone number.
-- `Kasi_Tech.co.za` with the active business email address.
-- `[Insert street address]`, `[Insert suburb]` and `[Insert city]` with the physical address.
-- The example operating hours if the business follows a different schedule.
+The enquiry page allows visitors to provide:
+- Full name
+- Email address
+- Phone/WhatsApp number
+- Location
+- Enquiry category
+- Preferred availability
+- Specific request or enquiry details
 
-## Forms
+*The form is designed to allow visitors to communicate their interest in the organisation and request further assistance or information.*
 
-The inquiry and contact forms use HTML validation and `mailto:` submission. When a visitor submits a form, the browser opens the visitor's configured email application. A hosted production website should later connect these forms to a secure server-side form handler or database.
+## Contact Page
 
-## HTML validation
+The Contact page provides visitors with the organisation telephone and WhatsApp numbers, Facebook information, physical address and opening hours. It also includes a map showing the organisation location and a form for visitors to submit their contact details.
 
-Validate every page using the official W3C Markup Validation Service: <https://validator.w3.org/>
+## Technologies Used
 
-## Version control
+- HTML5
+- HTML forms
+- Google Maps embed
+- Local image resources
+- Web browser for viewing the website
 
-Suggested first Git commands:
+## Website Features
 
-```bash
-git init
-git add .
-git commit -m "Create Siyakhana Legal Advice Centre website"
-git branch -M main
-```
+- Multi-page navigation
+- Organisation information
+- Mission and vision statements
+- Educational and legal service information
+- Human rights and social service access information
+- Contact details
+- Embedded location map
+- Enquiry form
+- Contact form
+- Responsive images
 
-Create an empty GitHub repository, then follow GitHub's instructions to add the remote URL and push the `main` branch.
+## Future Improvements
 
-## Technology and credits
+Possible future improvements include:
+- Adding CSS styling for a more modern interface.
+- Adding JavaScript for improved form validation and interactivity.
+- Connecting the enquiry and contact forms to a database or secure server-side form handler.
+- Adding a responsive mobile navigation menu.
+- Improving accessibility features.
+- Adding social media links and organisation branding.
+- Hosting the website online with an official domain.
 
-- HTML5 semantic markup
-- Original SVG illustrations included in this project
-- No third-party image downloads, fonts, CSS frameworks or JavaScript libraries
+## Project Purpose
 
-Proposed domain: `www.Siyakhana Legal Advice Centre.co.za`
+The purpose of the website is to provide an accessible online presence for **Mount Frere Paralegal Advice Centre**, allowing community members, legal aid seekers, donors, and other interested visitors to learn about its programmes, legal initiatives, and opportunities for community support.
+
+## Copyright
+
+© 2026 Siyakhana Legal Advice Centre. All rights reserved.
